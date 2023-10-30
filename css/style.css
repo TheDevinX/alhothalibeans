@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
+}
+
+html { 
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 20vh;
+}
+
+header img {
+  object-fit: contain;
+  max-height: 20vh;
+  width: auto;
+  height: auto;
+}
+
+
+header img:not(:first-child) {
+  padding: 1.5%;
+  margin: 10px;
+}
+
+a:not(ol li) {
+  text-decoration: none;
+  color: black;  
+}
+
+ol {
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  margin-bottom: 0 !important;
+}
+
+ol li a {
+  color: white;
+}
+
+/* Navbar */
+ol .navbar-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20pt;
+  background-color: rgb(243,142,33);
+  margin-bottom: 10px;
+}
+
+ol li {
+  padding: 20px;
+  font-size: 20pt;
+}
+
+ol li:hover {
+  background-color: #603813;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav {
+  flex: 1;
+  padding: 20px 20px 20px 20px;
+  position: sticky;
+  align-self: flex-start;
+  top: 0;
+  overflow-y: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  width: 100%;
+  background-color: rgb(243,142,33);
+  padding: 15px;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+nav ul li:hover {
+  background-color: rgb(235, 137, 33);
+  cursor: pointer;
+}
+
+
+/* Search bar */
+#searchbar {
+  width: 100%;
+  padding: 15px 40px 15px 15px;
+  margin-bottom: 10px;
+  font-size: 10pt;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  background: #f1f1f1 url("https://static.thenounproject.com/png/101791-200.png") no-repeat;
+  background-size: 30px;
+  background-position: 98% center;
+  border-radius: 10px;
+}
+
+#searchbar:focus {
+  outline: none;
+}
+
+.menu {
+  flex: 5;
+}
+
+/* Container */
+.menu .items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*  Menu -> Items -> Menu */
+/* Items */
+.menu .items .item-menu {
+  display: flex;
+  flex-direction: column;
+  flex: 25%;
+  margin: 25px;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 30%;
+  border-color: rgb(235, 137, 33);
+  border-style: solid;
+}
+
+.menu .items .item-menu img {
+  width: 100%;
+}
+
+.menu .items .item-menu .information {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 15pt;
+  padding: 10px;
+}
+
+.menu .items .item-menu .information .price {
+  font-weight: 500 !important;
+  font-size: 12pt;
+  color: #474747;
+}
+
+.noChildsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  min-width: 100vh;
+}
+
+.noChilds {
+  font-weight: bold;
+  font-size: 36pt;
+}
+
+/* .menu .items .item-menu .buttons {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20pt;
+} */
+
+.menu .items .item-menu button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16pt;
+  border-radius: 10px;
+  border-color: green;
+  border-style: solid;
+  border-width: 2px;
+  width: 100%;
+  color: green;
+}
+
+.menu .items .item-menu button i {
+  padding-right: 5%;
+}
+
+.menu .items .item-menu button:hover {
+  transition: 0.35s all;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 36pt;
+  margin: 20px 20px 0px 20px;
+}
+
+footer {
+  background-color: #603813;
+  padding: 10px;
+  text-align: center;
+  font-size: 20pt;
+  color: white;
+}
+
+/* Cart */
+.cart-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper{
+  position: relative;
+}
+
+.wrapper i {
+  font-size: 30pt;
+  margin: 20px 20px 0px 30px;
+}
+.wrapper span{
+  margin: 15px 15px 0px 20px;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  font-size: 12px;
+  background-color: rgb(235, 137, 33);
+  border-radius: 3em;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* ScrollBar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(243,142,33);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(235, 137, 33);
+}
+
+@media (max-width: 1000px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .menu .items .item-menu {
+    flex: 100%;
+  }
+
+  #searchbar {
+    padding: 15px 50px 15px 15px;
+  }  
+}

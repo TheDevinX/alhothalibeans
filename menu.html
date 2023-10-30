@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <!-- META -->
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="فول، فول الهذلي، جرة الهذلي، قلابة الهذلي">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="AbdulElah Alreshi, AbdulAziz Alreshi">
+  <meta name="description" content="مطعم فول الهذلي في مكة المكرمة">
+
+  <!-- TITLE -->
+  <title>فول الهذلي - قائمة الطعام</title> 
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/bootstrap.min.css ">
+  <link rel="stylesheet" href="css/indexCSS.css">
+
+  <!-- FAVICON -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  
+</head>
+<body>
+  <!-- <header>
+    <img src="images/logo.png" alt="فول الهذلي">
+    <img src="images/alfalah.png" alt="مدارس الفلاح">
+    <img src="images/vision2030.png" alt="رؤية 2030">
+    <img src="images/MOELogo.png" alt="وزارة التعليم">
+  </header> -->
+  
+  <!-- <ol>
+    <div class="navbar-items">
+      <li onmouseover="blackText(this)" onmouseout="whiteText(this)"><a href="index.html">الرئيسية</a></li>
+      <li onmouseover="blackText(this)" onmouseout="whiteText(this)"><a href="menu.html">قائمة الطعام</a></li>
+    </div>
+  </ol> -->
+
+  <div class="position-relative p-5 mb-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0 pt-3">
+        <a href="" class="navbar-brand p-0">
+            <h1 class="text-primary m-0"><img src="images/logo.png" alt="Logo"></i>فول الهذلي</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 pe-4">
+                <a href="index.html" class="black nav-item nav-link">الرئيسية</a>
+                <a href="menu.html" class="nav-item nav-link active">قائمة الطعام</a>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+  <section>
+    <!-- NAVIGATION -->
+    <nav>
+      <ul class="select-menu">
+        <input type="text" name="searchbar" id="searchbar" placeholder="اكتب بحثك هنا..."/>
+        <a style="color: white;" href="#1"><li class="select">العريكة</li></a>
+        <a style="color: white;" href="#2"><li class="select">المعصوب</li></a>
+        <a style="color: white;" href="#3"><li class="select">المطبق</li></a>
+        <a style="color: white;" href="#4"><li class="select">الأطباق</li></a>
+        <a style="color: white;" href="#5"><li class="select">الفتة والعصيدة</li></a>
+        <a style="color: white;" href="#6"><li class="select">الفول والتميس</li></a>
+        <a style="color: white;" href="#7"><li class="select">المشروبات</li></a>
+      </ul>
+    </nav>
+    
+    <!-- MENU (العريكة) -->
+    <div class="menu">
+      <div class="cart-wrapper">
+        <h1 id="1">العريكة</h1>
+        <div class="wrapper">
+          <a href="checkout.html">
+            <span id="cart-span">2</span>
+            <i class="fas fa-shopping-cart "></i>
+          </a>
+        </div>
+      </div>
+      <div class="items">
+          <div class="item-menu">
+            <img src="images/menu/عريكة بدون جبنة.png" alt="عريكة بدون جبنة">
+            <div class="information">
+              <span class="text">عريكة بدون جبنة</span>
+              <span class="price">18 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+          <div class="item-menu">
+            <img src="images/menu/عريكة كورن فليكس.png" alt="عريكة كورن فليكس">
+            <div class="information">
+              <span class="text">عريكة كورن فليكس</span>
+              <span class="price">22 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+          <div class="item-menu">
+            <img src="images/menu/عريكة بشرائح الموز.png" alt="عريكة بشرائح الموز">
+            <div class="information">
+              <span class="text">عريكة بشرائح الموز</span>
+              <span class="price">22 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+          <div class="item-menu">
+            <img src="images/menu/عريكة بدون قشطة.png" alt="عريكة بدون قشطة">
+            <div class="information">
+              <span class="text">عريكة بدون قشطة</span>
+              <span class="price">18 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+          <div class="item-menu">
+            <img src="images/menu/عريكة باللوتس.png" alt="عريكة باللوتس">
+            <div class="information">
+              <span class="text">عريكة باللوتس</span>
+              <span class="price">20 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+          <div class="item-menu">
+            <img src="images/menu/عريكة بالشوكولاتة.png" alt="عريكة بالشوكولاتة">
+            <div class="information">
+              <span class="text">عريكة بالشوكولاتة</span>
+              <span class="price">20 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+          <div class="item-menu">
+            <img src="images/menu/عريكة بالفستق.png" alt="عريكة بالفستق">
+            <div class="information">
+              <span class="text">عريكة بالفستق</span>
+              <span class="price">20 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+          <div class="item-menu">
+            <img src="images/menu/عريكة كاجوفلكس.png" alt="عريكة كاجوفليكس">
+            <div class="information">
+              <span class="text">عريكة كاجوفليكس</span>
+              <span class="price">22 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+          <div class="item-menu">
+            <img src="images/menu/عريكة دخن.png" alt="عريكة دخن">
+            <div class="information">
+              <span class="text">عريكة دخن</span>
+              <span class="price">22 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+          <div class="item-menu">
+            <img src="images/menu/عريكة ملكي.png" alt="عريكة ملكي">
+            <div class="information">
+              <span class="text">عريكة ملكي</span>
+              <span class="price">20 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+      </div>
+
+
+    <!-- MENU (المعصوب) -->
+    <div class="menu">
+      <h1 id="2">المعصوب</h1>
+      <div class="items">
+          <div class="item-menu">
+            <img src="images/menu/معصوب باللوتس.png" alt="معصوب باللوتس">
+            <div class="information">
+              <span class="text">معصوب باللوتس</span>
+              <span class="price">19 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب بالفستق.png" alt="معصوب بالفستق">
+            <div class="information">
+              <span class="text">معصوب بالفستق</span>
+              <span class="price">19 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب بالشوكولاتة.png" alt="معصوب بالشوكولاتة">
+            <div class="information">
+              <span class="text">معصوب بالشوكولاتة</span>
+              <span class="price">19 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب عادي.png" alt="معصوب عادي">
+            <div class="information">
+              <span class="text">معصوب عادي</span>
+              <span class="price">9 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب بالحليب.png" alt="معصوب بالحليب">
+            <div class="information">
+              <span class="text">معصوب بالحليب</span>
+              <span class="price">14 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب بالتمر.png" alt="معصوب بالتمر">
+            <div class="information">
+              <span class="text">معصوب بالتمر</span>
+              <span class="price">12 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب بالقشطة والتمر.png" alt="معصوب بالقشطة والتمر">
+            <div class="information">
+              <span class="text">معصوب بالقشطة والتمر</span>
+              <span class="price">16 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب بالقشطة.png" alt="معصوب بالقشطة">
+            <div class="information">
+              <span class="text">معصوب بالقشطة</span>
+              <span class="price">14 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب بالقشطة والعسل.png" alt="معصوب بالقشطة والعسل">
+            <div class="information">
+              <span class="text">معصوب بالقشطة والعسل</span>
+              <span class="price">16 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب بالقشطة مع شيدر.png" alt="معصوب بالقشطة مع شيدر">
+            <div class="information">
+              <span class="text">معصوب بالقشطة مع شيدر</span>
+              <span class="price">16 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب بالعسل.png" alt="معصوب بالعسل">
+            <div class="information">
+              <span class="text">معصوب بالعسل</span>
+              <span class="price">12 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب بالسمن.png" alt="معصوب بالسمن">
+            <div class="information">
+              <span class="text">معصوب بالسمن</span>
+              <span class="price">12 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/معصوب كوكتيل.png" alt="معصوب كوكتيل">
+            <div class="information">
+              <span class="text">معصوب كوكتيل</span>
+              <span class="price">20 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+      </div>
+      
+    <!-- MENU (المطبق) -->
+    <div class="menu">
+      <h1 id="3">المطبق</h1>
+      <div class="items">
+          <div class="item-menu">
+            <img src="images/menu/مطبق تونة.png" alt="مطبق تونة">
+            <div class="information">
+              <span class="text">مطبق تونة</span>
+              <span class="price">12 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+          
+          <div class="item-menu">
+            <img src="images/menu/مطبق جبنة لحم.png" alt="مطبق جبنة لحم">
+            <div class="information">
+              <span class="text">مطبق جبنة لحم</span>
+              <span class="price">14 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق جبنة سائلة.png" alt="مطبق جبنة سائلة">
+            <div class="information">
+              <span class="text">مطبق جبنة سائلة</span>
+              <span class="price">11 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق جبنة شيدر.png" alt="مطبق جبنة شيدر">
+            <div class="information">
+              <span class="text">مطبق جبنة شيدر</span>
+              <span class="price">11 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق جبنة.png" alt="مطبق جبنة">
+            <div class="information">
+              <span class="text">مطبق جبنة</span>
+              <span class="price">11 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق خضار.png" alt="مطبق خضار">
+            <div class="information">
+              <span class="text">مطبق خضار</span>
+              <span class="price">9 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق لحم.png" alt="مطبق لحم">
+            <div class="information">
+              <span class="text">مطبق لحم</span>
+              <span class="price">10 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق تونة شيدر.png" alt="مطبق تونة شيدر">
+            <div class="information">
+              <span class="text">مطبق تونة شيدر</span>
+              <span class="price">14 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق شوكولاتة.png" alt="مطبق شوكولاتة">
+            <div class="information">
+              <span class="text">مطبق شوكولاتة</span>
+              <span class="price">11 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق شوكولاتة موز.png" alt="مطبق شوكولاتة موز">
+            <div class="information">
+              <span class="text">مطبق شوكولاتة موز</span>
+              <span class="price">13 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق موزاريلا.png" alt="مطبق موزاريلا">
+            <div class="information">
+              <span class="text">مطبق موزاريلا</span>
+              <span class="price">11 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق حلو مشكل.png" alt="مطبق حلو مشكل">
+            <div class="information">
+              <span class="text">مطبق حلو مشكل</span>
+              <span class="price">12 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق حلو موز.png" alt="مطبق حلو موز">
+            <div class="information">
+              <span class="text">مطبق حلو موز</span>
+              <span class="price">10 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق حلو قشطة.png" alt="مطبق حلو قشطة">
+            <div class="information">
+              <span class="text">مطبق حلو قشطة</span>
+              <span class="price">10 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق حلو جبنة.png" alt="مطبق حلو جبنة">
+            <div class="information">
+              <span class="text">مطبق حلو جبنة</span>
+              <span class="price">10 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق حلو جبنة قشطة.png" alt="مطبق حلو جبنة قشطة">
+            <div class="information">
+              <span class="text">مطبق حلو جبنة قشطة</span>
+              <span class="price">12 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مطبق لحم شيدر.png" alt="مطبق لحم شيدر">
+            <div class="information">
+              <span class="text">مطبق لحم شيدر</span>
+              <span class="price">12 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+    </div>
+
+    <!-- MENU (الأطباق) -->
+    <div class="menu">
+      <h1 id="4">الأطباق</h1>
+      <div class="items">
+          <div class="item-menu">
+            <img src="images/menu/فاصوليا.png" alt="فاصوليا">
+            <div class="information">
+              <span class="text">فاصوليا</span>
+              <span class="price">13 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/بيض عيون.png" alt="بيض عيون">
+            <div class="information">
+              <span class="text">بيض عيون</span>
+              <span class="price">13 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/بيض مقلي.png" alt="بيض مقلي">
+            <div class="information">
+              <span class="text">بيض مقلي</span>
+              <span class="price">12 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/فاصوليا بالبيض.png" alt="فاصوليا بالبيض">
+            <div class="information">
+              <span class="text">فاصوليا بالبيض</span>
+              <span class="price">16 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/تونة بزاليا.png" alt="تونة بزاليا">
+            <div class="information">
+              <span class="text">تونة بزاليا</span>
+              <span class="price">13 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/بزاليا.png" alt="بزاليا">
+            <div class="information">
+              <span class="text">بزاليا</span>
+              <span class="price">16 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/لحسة.png" alt="لحسة">
+            <div class="information">
+              <span class="text">لحسة</span>
+              <span class="price">16 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/شكشوكة عدني.png" alt="شكشوكة عدني">
+            <div class="information">
+              <span class="text">شكشوكة عدني</span>
+              <span class="price">15 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/شكشوكة.png" alt="شكشوكة">
+            <div class="information">
+              <span class="text">شكشوكة</span>
+              <span class="price">13 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/تونة.png" alt="تونة">
+            <div class="information">
+              <span class="text">تونة</span>
+              <span class="price">13 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مقلقل دجاج.png" alt="مقلقل دجاج">
+            <div class="information">
+              <span class="text">مقلقل دجاج</span>
+              <span class="price">23 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/مقلقل لحم.png" alt="مقلقل لحم">
+            <div class="information">
+              <span class="text">مقلقل لحم</span>
+              <span class="price">23 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/كبدة.png" alt="كبدة">
+            <div class="information">
+              <span class="text">كبدة</span>
+              <span class="price">23 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+      </div>
+      
+    <!-- MENU (الفتة والعصيدة) -->
+    <div class="menu">
+      <h1 id="5">الفتة والعصيدة</h1>
+      <div class="items">
+          <div class="item-menu">
+            <img src="images/menu/عصيدة.png" alt="عصيدة">
+            <div class="information">
+              <span class="text">عصيدة</span>
+              <span class="price">13 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+     
+          <div class="item-menu">
+            <img src="images/menu/فتة تمر مع سمن.png" alt="فتة تمر مع سمن">
+            <div class="information">
+              <span class="text">فتة تمر مع سمن</span>
+              <span class="price">12 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/فتة تمر مع قشطة.png" alt="فتة تمر مع قشطة">
+            <div class="information">
+              <span class="text">فتة تمر مع قشطة</span>
+              <span class="price">14 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/فتة تمر مع عسل.png" alt="فتة تمر مع عسل">
+            <div class="information">
+              <span class="text">فتة تمر مع عسل</span>
+              <span class="price">12 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/فتة تمر.png" alt="فتة تمر">
+            <div class="information">
+              <span class="text">فتة تمر</span>
+              <span class="price">9 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/فتة مفروم.png" alt="فتة مفروم">
+            <div class="information">
+              <span class="text">فتة مفروم</span>
+              <span class="price">4 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+        </div>
+
+      
+
+    <!-- MENU ( الفول والتميس) -->
+    <div class="menu">
+      <h1 id="6">الفول والتميس</h1>
+      <div class="items">
+          <div class="item-menu">
+            <img src="images/menu/تميس جبنة.png" alt="تميس بالجبن">
+            <div class="information">
+              <span class="text">تميس بالجبن</span>
+              <span class="price">7 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/تميس بسكوت.png" alt="تميس بسكوت">
+            <div class="information">
+              <span class="text">تميس بسكوت</span>
+              <span class="price">2 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/تميس سمن.png" alt="تميس سمن">
+            <div class="information">
+              <span class="text">تميس سمن</span>
+              <span class="price">2 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/تميس بر.png" alt="تميس بر">
+            <div class="information">
+              <span class="text">تميس بر</span>
+              <span class="price">2 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/تميس عادي.png" alt="تميس عادي">
+            <div class="information">
+              <span class="text">تميس عادي</span>
+              <span class="price">1 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/صحن عدس.png" alt="صحن عدس">
+            <div class="information">
+              <span class="text">صحن عدس</span>
+              <span class="price">10 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/صحن فول.png" alt="صحن فول">
+            <div class="information">
+              <span class="text">صحن فول</span>
+              <span class="price">10 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+          <div class="item-menu">
+            <img src="images/menu/صحن قلابة.png" alt="صحن قلابة">
+            <div class="information">
+              <span class="text">صحن قلابة</span>
+              <span class="price">10 ر.س</span>
+            </div>
+            <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+
+      </div>
+
+
+    <!-- MENU (المشروبات) -->
+    <div class="menu">
+      <h1 id="7">المشروبات</h1>
+      <div class="items">
+        <div class="item-menu">
+          <img src="images/menu/شاي كرك.png" alt="شاي كرك">
+          <div class="information">
+            <span class="text">شاي كرك</span>
+            <span class="price">4 ر.س</span>
+          </div>
+          <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="item-menu">
+          <img src="images/menu/شاي عدني.png" alt="شاي عدني">
+          <div class="information">
+            <span class="text">شاي عدني</span>
+            <span class="price">4 ر.س</span>
+          </div>
+          <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="item-menu">
+          <img src="images/menu/شاي اخضر.png" alt="شاي اخضر">
+          <div class="information">
+            <span class="text">شاي اخضر</span>
+            <span class="price">2 ر.س</span>
+          </div>
+          <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="item-menu">
+          <img src="images/menu/شاي حليب.png" alt="شاي حليب">
+          <div class="information">
+            <span class="text">شاي حليب</span>
+            <span class="price">3 ر.س</span>
+          </div>
+          <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="item-menu">
+          <img src="images/menu/شاي.png" alt="شاي">
+          <div class="information">
+            <span class="text">شاي</span>
+            <span class="price">2 ر.س</span>
+          </div>
+          <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="item-menu">
+          <img src="images/menu/لبن الجوزاء.png" alt="لبن الجوزاء">
+          <div class="information">
+            <span class="text">لبن الجوزاء</span>
+            <span class="price">3 ر.س</span>
+          </div>
+          <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="item-menu">
+          <img src="images/menu/لبن نادك.png" alt="لبن نادك">
+          <div class="information">
+            <span class="text">لبن نادك</span>
+            <span class="price">2 ر.س</span>
+          </div>
+          <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="item-menu">
+          <img src="images/menu/مشروبات غازية.png" alt="مشروبات غازية">
+          <div class="information">
+            <span class="text">مشروبات غازية</span>
+            <span class="price">3 ر.س</span>
+          </div>
+          <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="item-menu">
+          <img src="images/menu/ماء.png" alt="ماء">
+          <div class="information">
+            <span class="text">ماء</span>
+            <span class="price">0.50 ر.س</span>
+          </div>
+          <button>أضف إلى السلة <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>إعداد الطالب: عبدالعزيز سامي الهذلي</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
